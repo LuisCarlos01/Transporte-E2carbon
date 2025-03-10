@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>STL Festival</title>
+</head>
+<body>
+    <div class="top-container">
+        <div class="top-content">
+            <img src="photos/image_transparent.png" alt="iPass Logo" class="logo-ipass">
+        </div>
+    </div>
+    
+    <div class="container">
+        <form id="loginForm">
+            <div class="logo">
+                <img src="photos/LOGO STL oficial PRETO.png" alt="STL Festival Logo" class="logo-festival">
+                <img src="photos/E2carbon_transparent.png" alt="E2Carbon Logo" class="logo-e2carbon">
+            </div>
+           
+            <label for="transporte">Qual meio de transporte você vai utilizar?</label>
+            <select id="transporte">
+                <option value="carro">Carro</option>
+                <option value="onibus">Ônibus</option>
+                <option value="van">Van</option>
+            </select>
+
+            <label for="pessoas">Quantas pessoas irão com você?</label>
+            <select id="pessoas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <input type="text" id="pessoas-input" placeholder="Digite o número de pessoas" style="display:none;">
+
+            <label for="estado">Selecione o estado:</label>
+            <select id="estado">
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="ap">Amapá</option>
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="pa">Pará</option>
+                <option value="pb">Paraíba</option>
+                <option value="pr">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="ro">Rondônia</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="se">Sergipe</option>
+                <option value="sp">São Paulo</option>
+                <option value="to">Tocantins</option>
+            </select>
+
+            <div class="input-group">
+                <label for="cidade">Qual local, você irá sair?</label>
+                <select id="cidade">
+                    
+                    <option value="outra">Outra</option>
+                </select>
+                <input type="text" id="cidade-input" placeholder="Digite a cidade" style="display:none;">
+            </div>
+
+            <div class="buttons">
+                <button id="voltar" type="button">VOLTAR</button>
+                <button id="avancar" type="submit">AVANÇAR</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>INFORMAÇÕES ADICIONAIS</h3>
+            <div class="footer-links">
+                <a href="https://ipass.com.br/quem-somos">Quem Somos</a>
+                <a href="https://ipass.com.br/termos-de-uso">Termos de Uso</a>
+                <a href="https://ipass.com.br/fale-conosco">Fale Conosco</a>
+                <a href="https://ipass.com.br/politica-de-privacidade">Política de Privacidade</a>
+                <a href="https://www.instagram.com/ipassbrasil/" target="_blank" class="instagram-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>© 2015 - 2025 TODOS OS DIREITOS RESERVADOS</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
